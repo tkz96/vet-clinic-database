@@ -1,12 +1,16 @@
 # curriculum-databases-projects-template
 
-## Authors
+## About
 
-👤 **Author1**
+A simple experimental vet clinic database made with Postgres.
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+## Author
+
+👤 **Talha Zuberi**
+
+- GitHub: [@tkz96](https://github.com/tkz96)
+- Twitter: [@TKZ96](https://twitter.com/tkz96)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/talha-zuberi)
 
 ## 🤝 Contributing
 
@@ -17,13 +21,3 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.

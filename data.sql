@@ -1,20 +1,5 @@
 /* Populate database with sample data. */
 INSERT INTO
-    animals (name)
-VALUES
-    ('Luna');
-
-INSERT INTO
-    animals (name)
-VALUES
-    ('Daisy');
-
-INSERT INTO
-    animals (name)
-VALUES
-    ('Charlie');
-
-INSERT INTO
     animals (
         name,
         date_of_birth,
@@ -62,7 +47,7 @@ VALUES
         DATE '2021-07-01',
         '1',
         'false',
-        '10.23'
+        '15.04'
     );
 
 INSERT INTO
@@ -77,7 +62,7 @@ VALUES
     (
         'Devimon',
         DATE '2017-05-12',
-        '0',
+        '5',
         'true',
         '11'
     );
