@@ -1,5 +1,4 @@
 /* Database schema to keep the structure of entire database. */
-
 CREATE TABLE animals (
     id BIGSERIAL NOT NULL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
@@ -8,3 +7,8 @@ CREATE TABLE animals (
     neutered BOOLEAN NOT NULL,
     weight_kg NUMERIC NOT NULL
 );
+
+ALTER TABLE
+    animals
+ADD
+    species VARCHAR(50);
