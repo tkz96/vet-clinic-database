@@ -58,3 +58,15 @@ SELECT animals.name FROM animals INNER JOIN owners ON animals.owner_id = owners.
 SELECT animals.name FROM animals INNER JOIN owners ON animals.owner_id = owners.id WHERE owners.id = 5 AND escape_attempts = 0;
 
 SELECT owners.full_name, COUNT(*) AS total FROM animals INNER JOIN owners ON animals.owner_id = owners.id GROUP BY owners.full_name ORDER BY total DESC LIMIT 1;
+
+-- Performance optimization
+
+SELECT COUNT(*) FROM visits where animal_id = 4;
+EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animal_id = 4;
+
+SELECT * FROM visits where vet_id = 2;
+EXPLAIN ANALYZE SELECT * FROM visits where vet_id = 2;
+
+SELECT * FROM owners where email = 'owner_18327@mail.com';
+EXPLAIN ANALYZE SELECT * FROM owners where email = 'owner_18327@mail.com';
+

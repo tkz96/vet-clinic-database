@@ -31,3 +31,8 @@ ADD
     COLUMN species_id BIGINT REFERENCES species (id),
 ADD
     COLUMN owner_id BIGINT REFERENCES owners (id);
+
+
+CREATE INDEX animal_id_index on visits(animal_id ASC);
+CREATE INDEX vet_id_index on visits(vet_id ASC);
+CREATE INDEX owner_email_index on owners(email ASC);
