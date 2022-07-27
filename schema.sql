@@ -49,3 +49,9 @@ CREATE TABLE visits (
     vet_id BIGINT REFERENCES vets (id),
     visit_date DATE
 );
+
+CREATE INDEX animal_id_index on visits(animal_id ASC);
+
+CREATE INDEX vet_id_index on visits(vet_id ASC);
+
+CREATE INDEX owner_email_index on owners(email ASC);
